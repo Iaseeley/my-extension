@@ -1,0 +1,26 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="gW6NGlS7Ev!xT=4b*Rgw" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="Sj(|+wy[P.p4hjAi|%xF"><value name="color"><shadow type="colorindexpicker" id="+,9$977u@NI0-@1bBO25"><field name="index">9</field></shadow></value><next><block type="particlesStartScreenAnimation" id="5n`_.4gRK6]MZ`,2KB|b"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="duration"><shadow type="timePicker" id="l^5,e*;.3IN,6O=P8a/)"><field name="ms">500</field></shadow></value><next><block type="device_pause" id="e%*W:j8PcF8}m)~u`*f^"><value name="pause"><shadow type="timePicker" id="WE!mwAqDbR#CM{E:xXT4"><field name="ms">3000</field></shadow></value><next><block type="game_dialog_set_frame" id="sin{4c|ZAD;BxF2WV#Tz"><value name="frame"><shadow type="dialog_image_picker" id="gT?CG.[dSJv_bCI,1YP4"><field name="img">img`
+.....cccccccccccccc.....
+...cbd111111111111dbc...
+..cd1111111111111111dc..
+.cd111111111111111111dc.
+.b11111111111111111111b.
+cd11111111111111111111dc
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+cd11111111111111111111dc
+.b11111111111111111111b.
+.cd111111111111111111dc.
+..cd1111111111111111dc..
+..b11d111111111111dbc...
+.b11bcccccccccccccc.....
+ccccc...................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"gT?CG.[dSJv_bCI,1YP4"}}</data></shadow></value><next><block type="game_dialog_set_text_color" id="}w*jOcj][68Dz~I).*3N"><value name="color"><shadow type="colorindexpicker" id="QZI)ouB5dX|u-F6j%vH-"><field name="index">15</field></shadow></value><next><block type="game_show_long_text" id="#^Pm(@o[/fR1GUjqUcU$"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text" id="2dI:*R.,7KE9AZJ9d#?3"><field name="TEXT">Welcome to your game!</field></shadow></value><next><block type="particlesEndScreenAnimation" id="Ky]:Afra#~+36Z0a4*am"><field name="effect">effects.confetti</field><next><block type="mixer_play_sound" id="ZG=Vk!(sh_76D]VEeSlp"><field name="sound">music.baDing</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
